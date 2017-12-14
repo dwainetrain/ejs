@@ -11,3 +11,9 @@ for (i = 0; i <= 7; i++ ) {
   console.log(burr);
   burr += "#";
 }
+
+// Book Solution
+// I would never think to use a string as the
+// first variable in a for loop!
+for (var line = "#"; line.length < 8; line += "#")
+  console.log(line);
